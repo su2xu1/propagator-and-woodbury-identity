@@ -15,18 +15,23 @@ where the full mass matrix $M^2_{\text{full}}$ is decomposed into a term origina
 
 $$ M^2_{\text{full}} = \tilde{M}^2 - \xi F F^T \quad (2) $$
 
-The components of these matrices are defined as $\tilde{M}^2_{nm} = \partial^2 P / \partial\phi_n\partial\phi_m |_{\phi=v}$ and $F_{n\alpha} = (t_\alpha v)_n$.
+The components of these matrices are defined as 
+
+$$v\tilde{M}^2_{nm} = \partial^2 P / \partial\phi_n\partial\phi_m |_{\phi=v}v$$
+ and 
+ 
+ $$ F_{n\alpha} = (t_\alpha v)_n $$.
 
 Due to spontaneous symmetry breaking, these matrices are subject to the following crucial physical properties:
 
 
 1. **Nambu-Goldstone Theorem:** The curvature of the potential is zero along the directions of the broken generators, $F$.
 
-   $$ \tilde{M}^2 F = 0 \quad (3) $$
+   $$\tilde{M}^{2}F = 0 \quad (3)$$
 
 2. **Vector Boson Mass Matrix:** Due to the anti-Hermitian nature of the generators, the vector boson mass matrix $\mu^2$ is given by:
 
-   $$ F^T F = -\mu^2 \quad (4) $$
+   $$ F^{T}F = -\mu^2 \quad (4) $$
 
 #### 3. Application of the Woodbury Matrix Identity
 From Eqs. (1) and (2), the inverse matrix to be evaluated is $\Delta(k) = (k^2 I + \tilde{M}^2 - \xi F F^T)^{-1}$. Since this operator possesses the structure of a "base full-rank matrix" plus a "low-rank update term," the Woodbury matrix identity can be naturally applied.
