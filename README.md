@@ -75,5 +75,5 @@ This derivation demonstrates that the non-trivial correction to the propagator a
 
 **References**  
 [1] S. Weinberg, *The Quantum Theory of Fields*, Vol. 2: Modern Applications (Cambridge University Press, 1996), Section 21.2.  
-[2] Woodbury matrix identity.   
-	https://en.wikipedia.org/wiki/Woodbury_matrix_identity
+[2] [Woodbury matrix identity](https://en.wikipedia.org/wiki/Woodbury_matrix_identity)   
+	
