@@ -32,7 +32,7 @@ Due to spontaneous symmetry breaking, these matrices are subject to the followin
 
 2. **Vector Boson Mass Matrix:** Due to the anti-Hermitian nature of the generators, the vector boson mass matrix $\mu^2$ is given by:
 
-   $$ F^T F = -\mu^2 \quad (4) $$
+   $$ F^{T}F=-{\mu}^{2} \quad (4) $$
 
 #### 3. Application of the Woodbury Matrix Identity
 From Eqs. (1) and (2), the inverse matrix to be evaluated is $\Delta(k) = (k^2 I + \tilde{M}^2 - \xi F F^T)^{-1}$. Since this operator possesses the structure of a "base full-rank matrix" plus a "low-rank update term," the Woodbury matrix identity can be naturally applied.
