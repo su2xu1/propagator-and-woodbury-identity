@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Algebraic Derivation of the Scalar Propagator in Spontaneously Broken Gauge Theories via the Woodbury Matrix Identity"
+---
+
 # Algebraic Derivation of the Scalar Propagator in Spontaneously Broken Gauge Theories via the Woodbury Matrix Identity
 
 #### 1. Introduction
